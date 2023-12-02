@@ -1,9 +1,11 @@
 <script setup lang="ts">
+import Sections from "./components/sections/index.vue";
 import Header from "./components/header/index.vue";
 </script>
 <template>
   <div class="parent-landing">
     <Header />
+    <Sections />
   </div>
 </template>
 <style scoped>
